@@ -1,0 +1,6 @@
+1.
+You can compare two JSON objects with the same properties without considering the order of the properties by 
+first converting them to strings and then comparing the strings. 
+In this code, we first use JSON.stringify() to convert both obj1 and obj2 into JSON strings. Then, we compare the JSON
+ strings for equality. This comparison ensures that the objects are considered equal regardless of the property order.
+ In my example, obj1 and obj2 will be considered equal because the order of properties doesn't matter in this comparison.
